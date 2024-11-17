@@ -1,5 +1,4 @@
 // 670510662 Thadchanon Maidee
-// 90%
 import java.util.*;
 
 public class Lab01_3 {
@@ -17,7 +16,7 @@ public class Lab01_3 {
         StringBuilder greaterThanKey = new StringBuilder();
         // System.out.println( Arrays.stream(arr).max().getAsInt());
         for (int i = 0; i < M; i++) {
-            if(KEY==0) {
+            if(KEY< Arrays.stream(arr).min().getAsInt()) {
                 lessThanKey.append("-");
                 break;
             }
