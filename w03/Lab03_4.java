@@ -7,8 +7,6 @@ public class Lab03_4 {
         int second = sc.nextInt();
         Time time = new Time(second); 
         System.out.println(time.date());
-        
-
     }
 }
 
