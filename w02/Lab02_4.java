@@ -2,7 +2,7 @@
 
 import java.util.*;
 public class Lab02_4{
-    private static Scanner sc = new Scanner(System.in);    
+    private static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int n = sc.nextInt();
         int m = sc.nextInt();
