@@ -9,7 +9,7 @@ public class Lab03_2 {
     
     obj1.setCourseDetail();
     obj2.setCourseDetail();
-   
+
     obj1.calCourse();
     obj2.calCourse();
     
